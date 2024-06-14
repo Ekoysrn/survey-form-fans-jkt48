@@ -78,7 +78,7 @@ button{
     background-color:rgb(114, 226, 114)
 }
 
-@media screen and (max-width:706px){
+@media screen and (max-width:768px){
     h1,p{
         text-align: center;
         color:#fff;
