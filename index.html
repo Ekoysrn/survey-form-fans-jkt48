@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Web</title>
+    <link rel="shortcut icon" href="jkt48newera.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey Form for JKT48 Fans in 2023</h1>
+        <p id="description">thank you taking the time to help us improve the quality</p>
+    </header>
+    <div class="container">
+        <div class="contForm">
+            <form action="" id="survey-form">
+                <label for="Name" id="name-label">Name  <input type="text" class="formInput" placeholder="please enter your name " id="name" required></label>
+                <label for="Email" id="email-label">Email <input type="email" class="formInput" placeholder="please enter your email " id="email" required></label>
+                <label for="Age" id="number-label">Age <input type="number" min="18" max="30" class="formInput" placeholder="please enter your age " id="number"></label>
+                <label for="option">How do you know JKT48?</label>
+                <select name="" id="dropdown">
+                    <optgroup label ="social media">
+                        <option value="">instagram</option>
+                        <option value="">facebook</option>
+                        <option value="">whats`up</option>
+                        <option value="">tiktok</option>
+                        <option value="">twitter</option>
+                        <option value="">youtube</option>
+                        <option value="">other</option>
+                    </optgroup>
+                </select>
+                <label for="">who you favorite Oshi?</label><br>
+                <input type="radio" class="inputRadio" checked name="member" value="0"> shani <br>
+                <input type="radio" class="inputRadio" name="member" value="1"> gracia <br>
+                <input type="radio" class="inputRadio" name="member" value="2"> feni <br>
+                <input type="radio" class="inputRadio" name="member" value="3"> zee <br>
+                <input type="radio" class="inputRadio" name="member" value="4"> ashel <br>
+                <input type="radio" class="inputRadio" name="member" value="5"> marsha <br>
+                <input type="radio" class="inputRadio" name="member" value="6"> freya <br>
+                <input type="radio" class="inputRadio" name="member" value="7"> fiony <br>
+                <input type="radio" class="inputRadio" name="member" value="8"> adel <br>
+                <input type="radio" class="inputRadio" name="member" value="9"> christy <br>
+                <input type="radio" class="inputRadio" name="member" value="10"> katrine <br>
+                <input type="radio" class="inputRadio" name="member" value="11"> gita <br><br>
+
+                <label for="">please choice your favorite setlist?</label><br>
+                <input type="checkbox" class="inputRadio" value="Pajama drive"> Pajama drive <br>
+                <input type="checkbox" class="inputRadio" value="Renai Kinshi jourei"> Renai Kinshi jourei <br>
+                <input type="checkbox" class="inputRadio" value="Theather no Megami"> Theather no Megami <br>
+                <input type="checkbox" class="inputRadio" value="Seifuku no me"> Seifuku no me <br>
+                <input type="checkbox" class="inputRadio" value="Ramune no Nomikata"> Ramune no Nomikata <br>
+                <input type="checkbox" class="inputRadio" value="Banzai"> Banzai <br>
+                <input type="checkbox" class="inputRadio" value="Aitakatta"> Aitakatta <br><br>
+
+                <label for="">Any Comment and sugestions?</label>
+                <textarea name="" id="" placeholder="comment here"></textarea>
+                
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
